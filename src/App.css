@@ -44,9 +44,8 @@
 }
 
 .avatar-img {
-  height: 300px;
+  height: 500px;
   padding-top: 5em;
-  border-radius:50%;
 
 }
 
@@ -117,7 +116,7 @@
   padding-right: 2em;
 }
 
-.contact-grid h2 {
+.contact-grid h3 {
   font-family: 'Anton', sans-serif;
 }
 
@@ -136,6 +135,11 @@
 
 .resume-right-col{
   color: black;
+  
+}
+
+.resume-right-col h2 {
+  text-decoration: underline;
 }
 
 .resume-left-col{
@@ -176,4 +180,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a:visited{
+  color:rgb(7, 7, 97);
 }

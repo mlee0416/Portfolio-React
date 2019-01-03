@@ -10,6 +10,10 @@ import {
 } from "react-mdl";
 import Main from './components/main'
 
+import 'font-awesome/css/font-awesome.min.css';
+import 'bootstrap-css-only/css/bootstrap.min.css'; 
+import 'mdbreact/dist/css/mdb.css';
+
 class App extends Component {
   render() {
     return (

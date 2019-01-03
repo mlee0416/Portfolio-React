@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import {Animation} from 'mdbreact';
 
 
 class Landing extends Component {
@@ -8,12 +9,13 @@ class Landing extends Component {
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
           <Cell col={12}>
+          <Animation type="fadeIn" >
             <img
-              src="/profile.jpg"
+              src="https://www.x-cart.com/wp-content/uploads/2017/09/how-to-become-a-web-developer.png"
               alt="avatar"
-              className="avatar-img"
+              className="avatar-img "
               />
-
+          
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
 
@@ -22,7 +24,7 @@ class Landing extends Component {
           <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
 
         <div className="social-links">
-
+          
           {/* LinkedIn */}
           <a href="http://google.com" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin-square" aria-hidden="true" />
@@ -45,6 +47,7 @@ class Landing extends Component {
 
         </div>
             </div>
+          </Animation>
           </Cell>
         </Grid>
       </div>
