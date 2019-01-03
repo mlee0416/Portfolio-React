@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import {
+  Link,
   Layout,
   Header,
   Navigation,
@@ -13,16 +14,17 @@ class App extends Component {
   render() {
     return (
       <div className="demo-big-content">
-        <Layout>
-          <Header className="background" title="My Portfolio" scroll>
+        <Layout> 
+          <Header className="background" title="Michael Lee's Portfolio" scroll>
             <Navigation>
+              <a href="/">Home</a>
               <a href="/resume">Resume</a>
               <a href="/projects">Projets</a>
               <a href="/aboutme">About Me</a>
               <a href="/contact">Contact</a>
             </Navigation>
           </Header>
-          <Drawer title="Title">
+          <Drawer title="">
             <Navigation>
               <a href="/resume">Resume</a>
               <a href="/projects">Projets</a>
