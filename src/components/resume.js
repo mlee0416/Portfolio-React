@@ -70,8 +70,8 @@ class Resume extends Component {
             <Skills skill="JavaScript" progress={100} />
             <Skills skill="HTML/CSS" progress={80} />
             <Skills skill="Python" progress={60}/>
+            <Skills skill="React" progress={60}/>
             <Skills skill="MySQL" progress={50} />
-            <Skills skill="React" progress={25} />
 
             <h5>CERTIFICATIONS</h5>
             <p>Google AdWords Certified, HIPAA Compliant Certified</p>

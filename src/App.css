@@ -142,6 +142,10 @@
   text-decoration: underline;
 }
 
+resume-right-col li{
+  font-size: 1em;
+}
+
 .resume-left-col{
   text-align: center;
 

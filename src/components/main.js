@@ -7,6 +7,7 @@ import Resume from './resume';
 import Stock from './stock';
 import Nfl from './nfl';
 import Movie from './movie';
+import HttpError from './httperror';
 
 import {Switch, Route} from 'react-router-dom';
 
@@ -20,6 +21,8 @@ const Main = () => (
         <Route exact path = "/stock" component = {Stock} />
         <Route exact path = "/nfl" component = {Nfl} />
         <Route exact path = "/movie" component = {Movie} />
+        <Route exact path = "/stock" component = {Stock} />
+        <Route exact path = "/404" component = {HttpError} />
     </Switch>
 )
 
