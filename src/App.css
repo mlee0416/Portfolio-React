@@ -55,9 +55,11 @@
   width: 75%;
   margin: auto;
   border-radius: 10px;
+  padding-top:2em;
 }
 
 .banner-text h1 {
+  padding-top:25px;
   font-size: 66px;
   font-weight: bold;
   color: white;
@@ -80,6 +82,7 @@
 }
 
 .social-links i {
+  padding-bottom:25px;
   color:white;
   font-size: 5em;
   

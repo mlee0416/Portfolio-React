@@ -9,14 +9,9 @@ class Landing extends Component {
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
           <Cell col={12}>
-          <Animation type="fadeIn" >
-          <Animation type="zoomIn" style={{}}>
-            <div style={{paddingTop:"50px"}}>
-            <h4 >Hi! I'm Michael, and I am a full stack developer. I want to create code to help you achieve your business goals.</h4>
-            </div>
-            </Animation>
+          <Animation type="flipInX">
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Hi! I'm Michael, and I am a full stack developer. I want to create code to help you achieve your business goals.</h1>
 
             <hr/>
 
