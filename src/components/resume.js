@@ -17,7 +17,7 @@ class Resume extends Component {
                 style={{ height: "250px", borderRadius: "50%" }}
               />
             </div>
-            <h2 style={{ paddingTop: "1em" }}>Michael Lee</h2>
+            <h3 style={{ paddingTop: "1em" }}>Michael Lee</h3>
             <h4 style={{ color: "grey" }}>Web Developer</h4>
             <hr style={{ borderTop: "3px solid #91eae4", width: "80%" }} />
             <p style={{paddingRight:"100px"}}>
@@ -40,7 +40,7 @@ class Resume extends Component {
           </Cell>
           {/* Education */}
           <Cell className="resume-right-col" col={8}>
-            <h2>Education</h2>
+            <h3>Education</h3>
                 <h5 style={{ marginTop: "0px" }}>
                   DATA ANALYTICS & VISUALIZATION CERTIFICATION | UNIVERSITY OF
                   CALIFORNIA, IRVINE | JULY 2018
@@ -60,7 +60,7 @@ class Resume extends Component {
             
 
             {/*Technical Skills & Certifications  */}
-            <h2>Technical Skills & Certifications</h2>
+            <h3>Technical Skills & Certifications</h3>
 
             <h5> LANGUAGES/FRAMEWORKS/SOFTWARE/DATABASES/LIBRARIES</h5>
                 <ul>
@@ -75,14 +75,14 @@ class Resume extends Component {
 
             <h5>CERTIFICATIONS</h5>
             <p>Google AdWords Certified, HIPAA Compliant Certified</p>
-            <h2>Current Projects</h2>
+            <h3>Current Projects</h3>
             <h5>ZENDESK STANDARD OF PROCEDURE | YAPI | OCTOBER 2018 – PRESENT</h5>
                 <ul>
                     <li>
                     Create a standard of procedure for Zendesk to streamline workflow and visualize accurate data
                     </li>
                 </ul>
-            <h2>Work Experience</h2>
+            <h3>Work Experience</h3>
             <h5>TECHNICAL SUPPORT SPECIALIST | YAPI | JULY 2018 – PRESENT</h5>
             <ul>
                 <li>Assist in developing data visualization tools using Python to retrieve relevant data from Zendesk AP</li>
