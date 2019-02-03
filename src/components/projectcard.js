@@ -27,7 +27,8 @@ class ProjectCard extends Component {
           <CardActions border>
             <Button colored> <a href={this.props.github}>GitHub</a> </Button>
             <Button colored> <a href={this.props.demo}>Live Demo</a> </Button>
-            <Button colored><a href="Stock">More Info</a></Button>
+
+
           </CardActions>
           <CardMenu style={{ color: "#fff" }} />
         </Card>
