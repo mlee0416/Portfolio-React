@@ -49,7 +49,7 @@ class Projects extends Component {
               cardTitle="Movie Searcher"
               cardText="Check out a simpile application built with React to scroll through any movie using The Movie DB API. This is a dynamic site that shows the movie poster, description, and links reviews."
               github="https://github.com/mlee0416/Movie-Search"
-              demo="https://stock123.herokuapp.com/"
+              demo="https://movie-searcher1.herokuapp.com/"
               image="url(https://icdn3.digitaltrends.com/image/avengers-11.jpg?ver=1) center / cover"
             />
             {/* // Project 4 */}
@@ -57,7 +57,6 @@ class Projects extends Component {
               cardTitle="Restaurant Analysis"
               cardText="We explored the impact of income and ethnicity on the types of the restaurants popular in an area. Using Yelp’s API, US Census Data, and LA Census Data, we were able to provide amazing findings."
               github="https://github.com/mlee0416/Restaurant-Analysis"
-              demo="https://stock123.herokuapp.com/"
               image="url(http://www.capesounio.com/assets/media/PICTURES/CAPE-SOUNIO/SO-DINING/The-restaurant/the-restaurant-at-cape-sounio-offers-unique-views-of-temple-of-poseidon-18791.jpg) center / cover"
             />
           </div>
@@ -72,15 +71,15 @@ class Projects extends Component {
               cardTitle="Movie Searcher"
               cardText="Check out a simpile application built with React to scroll through any movie using The Movie DB API. This is a dynamic site that shows the movie poster, description, and links reviews."
               github="https://github.com/mlee0416/Movie-Search"
-              demo="https://stock123.herokuapp.com/"
+              demo="https://movie-searcher1.herokuapp.com/"
               image="url(https://icdn3.digitaltrends.com/image/avengers-11.jpg?ver=1) center / cover"
             />
 
             <ProjectCard
               cardTitle="React Portfolio"
               cardText="This is my personal portfolio to feature all of my projects throughout the course of my coding career. Using ReactJS, this application shows my knowledge of my drive to learn."
-              github="https://github.com/mlee0416/Movie-Search"
-              demo="https://stock123.herokuapp.com/"
+              github="https://github.com/mlee0416/Developer-Portfolio"
+              demo="https://portfolio-react1.herokuapp.com/"
               image="url(https://www.linuxfoundation.org/wp-content/uploads/2018/03/bg_post_networking.jpg) center / cover"
             />
           </div>
