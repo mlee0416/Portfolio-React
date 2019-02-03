@@ -24,22 +24,19 @@ class App extends Component {
               <a href="/">Home</a>
               <a href="/resume">Resume</a>
               <a href="/projects">Projects</a>
-              <a href="/aboutme">About Me</a>
               <a href="/contact">Contact</a>
             </Navigation>
           </Header>
           <Drawer title="">
             <Navigation>
+              <a href="/">Home</a>
               <a href="/resume">Resume</a>
               <a href="/projects">Projects</a>
-              <a href="/aboutme">About Me</a>
               <a href="/contact">Contact</a>
             </Navigation>
           </Drawer>
-          <Content>
-            <div className="page-content" />
+
             <Main/>
-          </Content>
         </Layout>
 
       </div>

@@ -14,19 +14,14 @@ class Resume extends Component {
               <img
                 src="./profile.jpg"
                 alt="avatar"
-                style={{ height: "250px", borderRadius: "50%" }}
+                style={{ marginLeft: "5em", height: "250px", borderRadius: "50%" }}
               />
             </div>
             <h3 style={{ paddingTop: "1em" }}>Michael Lee</h3>
             <h4 style={{ color: "grey" }}>Web Developer</h4>
             <hr style={{ borderTop: "3px solid #91eae4", width: "80%" }} />
             <p style={{paddingRight:"100px"}}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
+            I am currently looking to further my career in web development by applying all the skills I've acquired this past year.
             </p>
             <hr style={{ borderTop: "3px solid #91eae4", width: "80%" }} />
             <h5>Address</h5>
@@ -40,7 +35,7 @@ class Resume extends Component {
           </Cell>
           {/* Education */}
           <Cell className="resume-right-col" col={8}>
-            <h3>Education</h3>
+            <h3 style={{textDecoration: "underline"}}>Education</h3>
                 <h5 style={{ marginTop: "0px" }}>
                   DATA ANALYTICS & VISUALIZATION CERTIFICATION | UNIVERSITY OF
                   CALIFORNIA, IRVINE | JULY 2018
@@ -55,16 +50,16 @@ class Resume extends Component {
                   </li>
                 </ul>
                 <h5 style={{ marginTop: "0px" }}>
-                BACHELOR OF ARTS IN SOCIOLOGY | UNIVERSITY OF CALIFORNIA,RIVERSIDE | AUGUST 2010
+                BACHELOR OF ARTS IN SOCIOLOGY | UNIVERSITY OF CALIFORNIA, RIVERSIDE | AUGUST 2010
                 </h5>
             
 
             {/*Technical Skills & Certifications  */}
-            <h3>Technical Skills & Certifications</h3>
+            <h3 style={{textDecoration: "underline"}}>Technical Skills & Certifications</h3>
 
             <h5> LANGUAGES/FRAMEWORKS/SOFTWARE/DATABASES/LIBRARIES</h5>
                 <ul>
-                    <li>Python, JavaScript, HTML, CSS, Microsoft Excel, Google Sheets, Tableau, SQL, MySQL, MongoDB, Bootstrap</li>
+                    <li>JavaScript, Python, HTML, CSS, React, PHP, SQL, MySQL, MongoDB, Microsoft Excel, Google Sheets, Tableau</li>
                 </ul>
             <h5>TOP 5 LANGUAGES & FRAMEWORK</h5>
             <Skills skill="JavaScript" progress={100} />
@@ -75,14 +70,29 @@ class Resume extends Component {
 
             <h5>CERTIFICATIONS</h5>
             <p>Google AdWords Certified, HIPAA Compliant Certified</p>
-            <h3>Current Projects</h3>
-            <h5>ZENDESK STANDARD OF PROCEDURE | YAPI | OCTOBER 2018 – PRESENT</h5>
+            <h3 style={{textDecoration: "underline"}}>Current Projects</h3>
+            <h5>Zendesk / Acuity Scheduling Tool | YAPI | January 2018 – Present</h5>
                 <ul>
                     <li>
-                    Create a standard of procedure for Zendesk to streamline workflow and visualize accurate data
+                    Develop a Zendesk application that displays our Acuity scheduling to streamline our communication between trainers and technical support.
+                    </li>
+                    <li>
+                    Current Status: Currently accessing Zendesk API to get current user data and validate it against Acuity API by email. 
+                    </li>
+                    <li>
+                    Problems: Running into CORS errors when calling a request to Acuity’s API on the Zendesk tool client. (Feb. 1, 2019)
                     </li>
                 </ul>
-            <h3>Work Experience</h3>
+            <h5>Zendesk / Acuity Scheduling Tool | YAPI | January 2018 – Present</h5>
+                <ul>
+                    <li>
+                    Develop a website using WordPress to feature their home security products. 
+                    </li>
+                    <li>
+                    Contract requires 40 web pages and 3 features including a contact us form, subscription page, and warranty page.
+                    </li>
+                </ul>
+            <h3 style={{textDecoration: "underline"}}>Work Experience</h3>
             <h5>TECHNICAL SUPPORT SPECIALIST | YAPI | JULY 2018 – PRESENT</h5>
             <ul>
                 <li>Assist in developing data visualization tools using Python to retrieve relevant data from Zendesk AP</li>

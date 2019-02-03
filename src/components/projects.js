@@ -3,14 +3,13 @@ import { Tabs, Tab, Grid, Cell } from "react-mdl";
 import { Animation } from "mdbreact";
 import ProjectCard from "./projectcard";
 import ProjectCardNoDemo from "./projectcardnodemo";
+import ProjectCardDemo from "./projectcarddemo";
 
 class Projects extends Component {
   constructor(props) {
     super(props);
     this.state = { 
       activeTab: 0,
-      isOpen: false,
-      whichModal: ""
     };
   }
 
@@ -173,8 +172,24 @@ class Projects extends Component {
         </Animation>
       );
     }
+    else if (this.state.activeTab === 5) {
+      return (
+        <Animation type="fadeInLeft">
+          {/* // Project 1 */}
+          <div className="projects-grid" style={{ paddingTop: "20px" }}>
+            <ProjectCardDemo
+              cardTitle="Sound Speaker"
+              cardText="This project is a demo for product web design using WordPress. This WordPress site features different elements used to make a stunning website."
+              demo="http://www.soundspeakers.tech/"
+              image="url(https://wallpapercave.com/wp/XxHKRfA.jpg) center / cover"
+            />
+          </div>
+        </Animation>
+      );
+    }
+  
   }
-
+    
   render() {
     return (
       <div>
@@ -188,6 +203,7 @@ class Projects extends Component {
           <Tab>JavaScript</Tab>
           <Tab>Python</Tab>
           <Tab>MySQL</Tab>
+          <Tab>WordPress</Tab>
         </Tabs>
         <Grid>
           <Cell col={12}>

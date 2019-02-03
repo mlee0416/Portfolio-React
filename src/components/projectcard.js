@@ -1,10 +1,20 @@
 import React, { Component } from "react";
-import {Card,CardTitle,CardText,CardActions,Button,CardMenu} from "react-mdl";
+import {Card,CardTitle,CardText,CardActions,Button,CardMenu, MDBBtn, MDBCollapse} from "react-mdl";
 
 class ProjectCard extends Component {
   constructor(props){
     super(props);
   }
+  state = {
+    collapseID: ""
+  }
+
+  toggleCollapse = (collapseID) => {
+    this.setState(prevState => ({
+      collapseID: prevState.collapseID !== collapseID ? collapseID : ""
+    }));
+  }
+  
   render() {
     return (
       <div className="projects-grid">

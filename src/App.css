@@ -1,3 +1,14 @@
+body, html {
+  height: 100%;
+  }
+
+.background-photo {
+  background-image: url("https://free-hd-wall-papers.com/images/technology-wallpaper/technology-wallpaper-15.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
 /* Landing Page */
 .background {
   background: #7f7fd5; /* fallback for old browsers */
@@ -14,12 +25,14 @@
     #7f7fd5
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
+ 
 .projects-grid{
   display:flex;
+  flex-wrap: wrap;
   margin-right: 20px;
   margin-left: 20px;
-}
+  margin-bottom: 20px;
+} 
 
 .landing-grid {
   position: fixed;

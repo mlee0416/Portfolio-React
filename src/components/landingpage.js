@@ -1,52 +1,32 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import {Animation} from 'mdbreact';
+import {Animation, MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol} from 'mdbreact';
 
-
-class Landing extends Component {
-  render() {
+    const Landing = () =>{
     return(
-      <div style={{width: '100%', margin: 'auto'}}>
-        <Grid className="landing-grid">
-          <Cell col={12}>
-          <Animation type="flipInX">
-            <div className="banner-text">
-              <h1>Hi! I'm Michael, and I am a full stack developer. I want to create code to help you achieve your business goals.</h1>
-
-            <hr/>
-
-          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
-
-        <div className="social-links">
-          
-          {/* LinkedIn */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-linkedin-square" aria-hidden="true" />
-          </a>
-
-          {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-github-square" aria-hidden="true" />
-          </a>
-
-          {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
-          </a>
-
-          {/* Youtube */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-youtube-square" aria-hidden="true" />
-          </a>
-
-        </div>
-            </div>
-          </Animation>
-          </Cell>
-        </Grid>
-      </div>
+      <div className="background-photo">
+      <MDBContainer className="mt-5 text-center" style={{marginTop:'0px'}}>
+      <MDBRow>
+        <MDBCol >
+          <MDBJumbotron >
+            <h2 className="h1 display-3" style={{fontFamily:"Trebuchet MS"}}>Hello Potential Employer!</h2>
+            <p className="lead" style={{fontFamily:"Trebuchet MS"}}>
+              My name is Michael Lee and this is my portfolio that shows off all different types of sample code to prove worthy of your company.
+            </p>
+            <hr className="my-2" />
+            <p style={{fontFamily:"Trebuchet MS"}}>
+              You'll see a variety of languages from React to Python and all the inbetween. 
+            </p>
+            <p className="lead">
+              <MDBBtn color="primary" ><a href="/projects" style={{color:"white"}}>Go Straight To Projects</a></MDBBtn>
+            </p>
+          </MDBJumbotron>
+        </MDBCol>
+      </MDBRow>
+    </MDBContainer>
+    </div>
     )
   }
-}
+
 
 export default Landing;
