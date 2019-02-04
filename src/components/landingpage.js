@@ -11,11 +11,11 @@ import {Animation, MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol} from 'mdb
           <MDBJumbotron >
             <h2 className="h1 display-3" style={{fontFamily:"Trebuchet MS"}}>Hello Potential Employer!</h2>
             <p className="lead" style={{fontFamily:"Trebuchet MS"}}>
-              My name is Michael Lee and this is my portfolio that shows off all different types of sample code to prove worthy of your company.
+              My name is Michael Lee and I want to use my skills to create web applications that will help you achieve your goals.
             </p>
             <hr className="my-2" />
             <p style={{fontFamily:"Trebuchet MS"}}>
-              You'll see a variety of languages from React to Python and all the inbetween. 
+              Here is a sample of what I can bring to your company from JavaScript to SQL.
             </p>
             <p className="lead">
               <MDBBtn color="primary" ><a href="/projects" style={{color:"white"}}>Go Straight To Projects</a></MDBBtn>

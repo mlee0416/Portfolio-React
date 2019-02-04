@@ -21,7 +21,7 @@ class Resume extends Component {
             <h4 style={{ color: "grey" }}>Web Developer</h4>
             <hr style={{ borderTop: "3px solid #91eae4", width: "80%" }} />
             <p style={{paddingRight:"100px"}}>
-            I am currently looking to further my career in web development by applying all the skills I've acquired this past year.
+            I am pursuing a career in web development, where I can apply my coding skills.
             </p>
             <hr style={{ borderTop: "3px solid #91eae4", width: "80%" }} />
             <h5>Address</h5>
@@ -46,7 +46,7 @@ class Resume extends Component {
                     applications that best visualize data
                   </li>
                   <li>
-                    Portfolio: ​https://mlee0416.github.io/Developer-Portfolio/
+                    Github Portfolio: <a href="https://github.com/mlee0416">https://github.com/mlee0416</a> 
                   </li>
                 </ul>
                 <h5 style={{ marginTop: "0px" }}>
@@ -59,7 +59,7 @@ class Resume extends Component {
 
             <h5> LANGUAGES/FRAMEWORKS/SOFTWARE/DATABASES/LIBRARIES</h5>
                 <ul>
-                    <li>JavaScript, Python, HTML, CSS, React, PHP, SQL, MySQL, MongoDB, Microsoft Excel, Google Sheets, Tableau</li>
+                    <li>JavaScript, Python, HTML, CSS, React, PHP, SQL, MySQL, MongoDB, Microsoft Excel, Google Sheets, Tableau, WordPress</li>
                 </ul>
             <h5>TOP 5 LANGUAGES & FRAMEWORK</h5>
             <Skills skill="JavaScript" progress={100} />
@@ -71,25 +71,25 @@ class Resume extends Component {
             <h5>CERTIFICATIONS</h5>
             <p>Google AdWords Certified, HIPAA Compliant Certified</p>
             <h3 style={{textDecoration: "underline"}}>Current Projects</h3>
-            <h5>Zendesk / Acuity Scheduling Tool | YAPI | January 2018 – Present</h5>
+            <h5>Zendesk / Acuity Scheduling Tool | YAPI | January 2019 – Present</h5>
                 <ul>
                     <li>
-                    Develop a Zendesk application that displays our Acuity scheduling to streamline our communication between trainers and technical support.
+                    Develop a Zendesk application that displays our Acuity scheduling to streamline communication 
                     </li>
                     <li>
-                    Current Status: Currently accessing Zendesk API to get current user data and validate it against Acuity API by email. 
+                    Current Status: Currently accessing Zendesk API to get current user data and validate against Acuity API by email
                     </li>
                     <li>
-                    Problems: Running into CORS errors when calling a request to Acuity’s API on the Zendesk tool client. (Feb. 1, 2019)
+                    Current Issues: CORS errors when calling a request to Acuity’s API on the Zendesk tool client
                     </li>
                 </ul>
-            <h5>Zendesk / Acuity Scheduling Tool | YAPI | January 2018 – Present</h5>
+            <h5>Freelance Web Page for Test Rite | Test Rite | February 2019 – Present</h5>
                 <ul>
                     <li>
-                    Develop a website using WordPress to feature their home security products. 
+                    Develop a website using WordPress to feature products 
                     </li>
                     <li>
-                    Contract requires 40 web pages and 3 features including a contact us form, subscription page, and warranty page.
+                    Contract requires 40 web pages and three back-end features: Contact Us form, Subscription page, and Warranty page 
                     </li>
                 </ul>
             <h3 style={{textDecoration: "underline"}}>Work Experience</h3>
